@@ -19,14 +19,22 @@ This repository contains the corpus list, attribute classifications, and taxonom
 ## Taxonomy Overview
 
 ### Organizational Structure (3 categories)
-- **Orchestrated**: Explicit orchestrator/manager agent coordinates other agents
-- **Networked**: Peer agents communicate via shared state or message passing without central coordinator
-- **Sequential**: Pipeline/workflow with predetermined execution order and stage-to-stage handoffs
+- **Orchestrated** (16, 53%): Explicit orchestrator/manager agent coordinates other agents
+- **Networked** (8, 27%): Peer agents communicate via shared state or message passing without central coordinator
+- **Sequential** (6, 20%): Pipeline/workflow with predetermined execution order and stage-to-stage handoffs
 
 ### Operational Methodology (3 categories)
-- **Iterative-Feedback**: Repeated generation-evaluation-refinement cycles until convergence
-- **Graph-Routed**: Dynamic execution paths determined by routing logic or state machines
-- **Staged-Pipeline**: Fixed sequence of distinct phases with prescribed transitions
+- **Iterative-Feedback** (15, 50%): Repeated generation-evaluation-refinement cycles until convergence
+- **Graph-Routed** (8, 27%): Dynamic execution paths determined by routing logic or state machines
+- **Staged-Pipeline** (7, 23%): Fixed sequence of distinct phases with prescribed transitions
+
+### 3×3 Grid Distribution
+
+|  | Sequential | Networked | Orchestrated |
+|---|:---:|:---:|:---:|
+| **Iterative-Feedback** | 1 | 6 | 8 |
+| **Graph-Routed** | 1 | 2 | 5 |
+| **Staged-Pipeline** | 4 | 0 | 3 |
 
 ## Data Collection
 
